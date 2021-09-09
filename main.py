@@ -22,7 +22,7 @@ async def add(q: str):
         message = "It is certain"
     
     elif magic == 2:
-        message = "Outlook good"
+        message = "Don't count on it"
     
     elif magic == 3:
         message = "You may rely on it"
@@ -37,7 +37,7 @@ async def add(q: str):
         message = "Reply hazy, try again"
     
     elif magic == 7:
-        message = "My reply is no"
+        message = "Better not tell you now"
     
     elif magic == 8:
         message = "My sources say no"
