@@ -13,5 +13,5 @@ In this demo I am going to show you what I built for the first project of this c
 ## What does the function do?
 This is a digital magic 8 ball that can give you 100% accurate predictions of whatever question you ask it.
 
-# Do you want to see it?
+## Do you want to see it?
 Click [here](https://zrmpc3yczk.us-east-2.awsapprunner.com/)
