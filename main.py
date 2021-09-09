@@ -14,7 +14,7 @@ async def program(prog_name: str):
         message = "Welcome MIDS Student!"
     else:
         message = "Sorry! Your Master's program is not supported by this website"
-    return {"message"}
+    return {"message": message}
 
 if __name__ == '__main__':
     uvicorn.run(app, port=8080, host='0.0.0.0')
