@@ -11,7 +11,7 @@ In this demo I am going to show you what I built for the first project of this c
 * It is deployed using AWS AppRunner, which is hooked to my github repo where this project lives and will deploy directly from it
 
 ## What does the function do?
-Just like we saw in class, this function just adds two numbers that you type directly into the URL
+This is a digital magic 8 ball that can give you 100% accurate predictions of whatever question you ask it.
 
 # Do you want to see it?
 (watch it here: ___)
