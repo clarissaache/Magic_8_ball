@@ -8,13 +8,10 @@ async def root():
     a = "Welcome! My name is Clarissa Ache.\n This is what I did for my first project in Data Ops class"
     return {"message":a}
 
-@app.get("/program/{prog_name}")
+@app.get("/program/mids")
 async def program(prog_name: str):
-    """Enter a name and capitalize first letter"""
-    if prog_name == 'mids'
+    """Greet students"""
         message = "Welcome MIDS Student!"
-    else:
-        message = "Sorry! Your Master's program is not supported by this website"
     return {"message": message}
 
 if __name__ == '__main__':
