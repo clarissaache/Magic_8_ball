@@ -5,7 +5,8 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome! My name is Clarissa Ache.\n This is what I did for my first project in Data Ops class"}
+    a = "Welcome! My name is Clarissa Ache.\n This is what I did for my first project in Data Ops class"
+    return {"message":a}
 
 @app.get("/program/{prog_name}")
 async def program(prog_name: str):
